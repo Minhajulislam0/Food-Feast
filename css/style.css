@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navigation bar */
+nav{
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 0;
+}
+
+nav h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav h1 span{
+    color:lightsteelblue;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 50px;
+}
+
+
+/* hero section */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 80px 0;
+    height: 91vh;
+}
+
+
+.hero-text{
+    width: 40%;
+}
+
+.hero-text h1 span{
+    color: tomato;
+}
+
+.hero-text h1{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size:  50px; ;
+}
+
+.hero-text p{
+    padding: 20px 0 30px;
+    font-size: 20px;
+    color: grey;
+}
+
+.hero-text a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, tomato, orange);
+    color: #fff;
+    box-shadow: 5px 5px 50px orange;
+}
+
+.hero-img img{
+    width: 80%;
+    height: auto;
+    padding-left: 15%;
+}
+/* hero End */
+
+/* about section start*/
+
+    .about-bg{
+        background-image: url(../images/bg\ about.png);
+        background-repeat: no-repeat;
+        padding-top: 50px;
+    }
+
+    .about-img img{
+        width: 45%;
+        height: 490px;
+        padding-left: 15%;
+    }
+
+
+    .about-text{
+        padding-right: 10%;
+        padding-bottom: 150px;
+    }
+
+    .about-text p{
+        text-transform: capitalize;
+    }
+
+    .about-btn {
+        padding-top: 100px;
+    }
+
+/* about End */
+
+/* My recipies start */
+
+    .mr-heading{
+        text-align: center;
+        padding: 0 20% 0;
+        padding-bottom: 5px;
+    }
+
+    .mr-heading h1{
+        color: grey;
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .mr-heading p{
+        font-size: 20px;
+    }
+
+    .box{
+        height: 350px;
+        width: 265px;
+        box-shadow: 10px 10px 40px grey;
+        padding: 13px;
+        border-radius: 15px;
+    }
+
+    .box img{
+        width: 100%;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .box h3{
+        padding-bottom: 15px;
+    }
+
+/* My recipies End */
+
+/* order start */
+
+    .bg-of{
+        background: rgba(94, 138, 138, 0.788);
+    }
+
+    .of-text{
+        text-align: center;
+        padding: 20px 20% 50px;
+    }
+
+    .of-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15% 0;
+    }
+
+    .of-box1 input{
+        width: 450px;
+        padding: 5px 0;
+        border: 2px solid rgba(94, 138, 138, 0.788);
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    
+    .of-box1 p{
+        padding-top: 7px;
+    }
+
+    .of-box2 textarea{
+        border: 2px solid rgba(94, 138, 138, 0.788);
+        border-radius: 5px;
+    }
+
+    .of-btn{
+        text-align: center;
+        padding: 15px 15% 50px;
+}
+
+    .of-btn button{
+        width: 100%;
+        height: 30px;
+        background:linear-gradient(180deg, tomato, orange);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    /* order End */
+
+    /* Footer */
+
+    footer{
+        text-align: center;
+        padding: 30px 0 100px;
+        background-color: black;
+    }
+
+    footer h1 span{
+        color: orange;
+    }
+
+    footer h1{
+        color: gray;
+        padding-bottom: 30px;
+    }
+
+    footer p{
+        color: #fff;
+    }
+
+    /* Footer end */
+
+
+
